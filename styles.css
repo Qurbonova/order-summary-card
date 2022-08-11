@@ -1,0 +1,87 @@
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: #E0E8FF;
+
+}
+
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.card {
+    width: 400px;
+    /*height: 500px;*/
+    border-radius: 20px;
+    margin: 50px auto;
+    background-color: white;
+
+}
+
+img {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    background-color: #F8F9FE;
+    width: 75%;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px 20px;
+}
+
+.plan-text {
+    margin-left: 20px;
+}
+
+
+.plan-text .text {
+    font-weight: 900;
+}
+
+.change-link {
+    margin-left: auto;
+    order: 2;
+    font-size: 13px;
+}
+
+.payment-btn {
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    background: #382AE1;
+    padding: 10px 75px;
+    text-decoration: none;
+    box-shadow: 0px 7px 9px #6262e0;
+
+}
+
+.payment-btn:hover {
+    background: #766CF1;
+    text-decoration: none;
+}
+
+.cancel-link {
+    display: block;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
